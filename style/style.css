@@ -89,3 +89,29 @@ main {
   font-size: 25px;
   color: #737272;
 }
+/* call naw part styles */
+#call-naw {
+  padding: 130px 0;
+}
+.call-naw-description {
+  background-image: linear-gradient(
+      to right,
+      rgb(0, 95, 172),
+      rgba(0, 95, 172, 0.11)
+    ),
+    url('../images/watch.png');
+  padding: 60px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  background-color: rgba(0, 95, 172);
+}
+.call-naw-description h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+.call-naw-description .btn {
+  margin-top: 24px;
+}
+
