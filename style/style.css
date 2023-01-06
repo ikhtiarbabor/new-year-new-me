@@ -47,3 +47,23 @@ main {
 .banner-description {
   padding: 32px 0;
 }
+/* My failures part styles */
+.my-failure-wrapper {
+  display: flex;
+  padding: 130px 0;
+  gap: 85px;
+  align-items: center;
+}
+.my-failure-info {
+  padding-left: 70px;
+}
+.my-failure-description {
+  padding: 24px 0 16px 0;
+}
+.my-failure-reason li {
+  list-style: none;
+  line-height: 30px;
+}
+.my-failure-reason li img {
+  padding: 5px 16px 0 35px;
+}
