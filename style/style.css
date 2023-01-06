@@ -67,3 +67,25 @@ main {
 .my-failure-reason li img {
   padding: 5px 16px 0 35px;
 }
+
+/* my plan part styles */
+.my-plan-skill-wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.my-plan-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.my-plan-subtitle {
+  padding: 16px 0;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.my-skill-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
