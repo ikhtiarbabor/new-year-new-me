@@ -25,6 +25,10 @@ main {
   border-radius: 5px;
   border: 0;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+.btn:hover {
+  transform: scale(1.1, 1.1);
 }
 /* header part  styles */
 .banner {
@@ -93,8 +97,11 @@ main {
 
   transition: 0.5s ease;
 }
+.my-mentor-info .mdn {
+  border-radius: 50%;
+}
 .my-mentor-info:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.2, 1.2);
 }
 .my-mentor-subtitle {
   font-size: 20px;
@@ -155,3 +162,55 @@ main {
 .call-naw-description .btn {
   margin-top: 24px;
 }
+/* footer styles */
+#footer {
+  background-color: #151414;
+}
+.footer-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.footer-wrapper p {
+  padding: 16px 280px 16px 0;
+  line-height: 30px;
+}
+.footer-feature-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.footer-subscribe input {
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #fff;
+  width: 325px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.footer-subscribe input:hover {
+  transform: scale(1.1, 1.1);
+}
+.footer-subscribe input::placeholder {
+  color: #fff;
+}
+.footer-subscribe input:fo {
+  outline: none;
+}
+.footer-subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+}
+.footer-subscribe .btn {
+  background-color: #005fac;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* project done */
